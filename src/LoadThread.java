@@ -49,9 +49,6 @@ public class LoadThread implements Runnable{
                         torrentInfo.getString("size"),
                         obj.getString("date_uploaded"));
                 filmsList.add(f);
-                /*Film(String imdbCode, String title, int year, double rating,
-                int lenght, String genres, String language, String ageRating, String hash, String quality, String sizeMB, String dateUploaded) {*/
-
             }
             stream.close();
             Collections.sort(filmsList);
