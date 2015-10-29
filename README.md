@@ -12,7 +12,7 @@ Generate the jar file and drop it into the same folder as yts_movie.json. Run it
 Double clicking on a film will recover its data and show it on the right. Clicking open torrent should launch your default
 torrent application. The interface it's bad, resize isn't working etc etc, but the basic functionality, search included, is here.
 
-This project use the org.json library, download it from search.maven.org/#search|ga|1|g%3A"org.codeartisans" AND a%3A"org.json" put it in hte same folder as the java files and compile with javac -cp ".;org.json.jar" *.java
+This project use the org.json library, download it from search.maven.org/#search|ga|1|g%3A"org.codeartisans" AND a%3A"org.json" put it in the same folder as the java files and compile with javac -cp ".;org.json.jar" *.java
 
 
 
